@@ -1,23 +1,5 @@
 #ifndef _QAC_
-//******************************************************************************
-//
-// Company:      Johnson Controls Inc.
-//-----------------------------------------------------------------------------
-// Copyright:    This software is JCI property.
-//               Duplication or disclosure without JCI written authorization
-//               is prohibited.
-//-----------------------------------------------------------------------------
-// Project:
-// Language:     ANSI-C
-//-----------------------------------------------------------------------------
-/// \file
-/// \brief  Component:    MDL_Hyb - Implementation.
-//-----------------------------------------------------------------------------
-// $Log:   //EL_DI_PSA_X81_IC_SOP_2016/archives/MC/Development/DEV/AS/CMP/SWC/MDL_Hyb/MDL_Hyb.c-arc  $
-//
-//
-//
-//******************************************************************************
+
 
 #endif  // #ifndef _QAC_
 

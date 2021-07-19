@@ -1,6 +1,4 @@
 #ifndef _QAC_
-
-
 #endif  // #ifndef _QAC_
 
 //==============================================================================
@@ -706,11 +704,11 @@ static void state_Started(void)
     //===================================================================================================================
     //===================================================================================================================
     //_j_Req_Identifier :  SysRS16_Hybrid-875
-    //When ACTIVATION_STATES is in STATE_GAUGE_IDLE state (i.e. INFO_GAUGE_ON = False) then, for the “Displaying of the hybrid power” :
+    //When ACTIVATION_STATES is in STATE_GAUGE_IDLE state (i.e. INFO_GAUGE_ON = False) then, for the Â“Displaying of the hybrid powerÂ” :
     //
-    //INFO_GAUGE_HYBRIDE_POWER := “Disable”
+    //INFO_GAUGE_HYBRIDE_POWER := Â“DisableÂ”
     //_j_Req_Identifier :  SysRS16_Hybrid-876
-    //When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state (i.e. INFO_GAUGE_ON = True) then, for the “Displaying of the hybrid power” :
+    //When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state (i.e. INFO_GAUGE_ON = True) then, for the Â“Displaying of the hybrid powerÂ” :
     //
     //INFO_GAUGE_HYBRIDE_POWER := DAT_LI_GAUGE_HYBRIDE_POWER
     if(INFO_GAUGE_ON == cFalse)
@@ -723,7 +721,7 @@ static void state_Started(void)
     }
 
     //  _j_Req_Identifier :  SysRS16_Hybrid-867
-    //  When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state (i.e. INFO_GAUGE_ON = True) then, for the “Displaying of the hybride power” :
+    //  When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state (i.e. INFO_GAUGE_ON = True) then, for the Â“Displaying of the hybride powerÂ” :
     //
     //  For Each XXX =
     //          POINTER_0
@@ -746,7 +744,7 @@ static void state_Started(void)
 
     //schougul: Below requirement is removed in 17V6 spec update
     //  _j_Req_Identifier :  SysRS16_Hybrid-868
-    //  When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state (i.e. INFO_GAUGE_ON = True) then, for the “Displaying of the hybrid power” :
+    //  When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state (i.e. INFO_GAUGE_ON = True) then, for the Â“Displaying of the hybrid powerÂ” :
     //
     //  INFO_GAUGE_HYBRIDE_TAQUET := DAT_DG_GAUGE_HYBRIDE_TAQUET
     //  if(INFO_GAUGE_ON == True)
@@ -776,7 +774,7 @@ static void state_Started(void)
     }
 
     //  _j_Req_Identifier :  SysRS16_Hybrid-1659
-    //  When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state then, for the “Displaying of socket side” :
+    //  When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state then, for the Â“Displaying of socket sideÂ” :
     //  INFO_GAUGE_SOCKET_SIDE :=  DAT_DG_SOCKET_SIDE
     if(INFO_GAUGE_ON == True)
     {
@@ -829,11 +827,11 @@ static void state_Started(void)
     //  When DISPLAY_SETTINGS is in STATE_HY_ACTIVE state, then :
     //
     //  If
-    //      DAT_LI_HY_VITV = “0” or “Invalid”
+    //      DAT_LI_HY_VITV = Â“0Â” or Â“InvalidÂ”
     //  Then
-    //      INFO_DRIVING_CAR := “False”
+    //      INFO_DRIVING_CAR := Â“FalseÂ”
     //  Else
-    //      INFO_DRIVING_CAR := “True”
+    //      INFO_DRIVING_CAR := Â“TrueÂ”
     //  Endif
 
 
@@ -896,12 +894,12 @@ static void state_Started(void)
     //  2.5.7   Displaying of the Digital level of power consumption of accessories
     //
     //  _j_Req_Identifier :  SysRS16_Hybrid-1583
-    //  When ACTIVATION_STATES is in STATE_GAUGE_IDLE state then, for the “Displaying of the power consumption of thermal confort accessories”:
+    //  When ACTIVATION_STATES is in STATE_GAUGE_IDLE state then, for the Â“Displaying of the power consumption of thermal confort accessoriesÂ”:
     //
     //  INFO_GAUGE_ENERGIE_CLIM_ELEC_DIGITAL := Disable
 
     //_j_Req_Identifier :  SysRS16_Hybrid-1584
-    //When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state then, for the “Displaying of the power consumption of thermal confort accessories”:
+    //When ACTIVATION_STATES is in STATE_GAUGE_ACTIVE state then, for the Â“Displaying of the power consumption of thermal confort accessoriesÂ”:
     //If
     //DAT_DG_GAUGE_ENERGIE_CLIM_ELEC_DIGITAL = Absence
     //Then

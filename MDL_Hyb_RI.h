@@ -1,20 +1,5 @@
 #ifndef _QAC_
-//******************************************************************************
-// Company:      Johnson Controls Inc.
-// -----------------------------------------------------------------------------
-// Copyright:    This software is JCI property.
-//               Duplication or disclosure without JCI written authorization
-//               is prohibited.
-// -----------------------------------------------------------------------------
-// Project:
-// Language:     ANSI-C
-// -----------------------------------------------------------------------------
-/// \file
-/// \brief Component:    APP_Cmp - Declaration of required interfaces
-// -----------------------------------------------------------------------------
-// $Log:   //EL_DI_PSA_X81_IC_SOP_2016/archives/MC/Development/DEV/AS/CMP/SWC/MDL_Dimming/MDL_Dimming_RI.h-arc  $
-// 
-//******************************************************************************
+
 #endif  // #ifndef _QAC_
 
 #include "Rte_MDL_HYB.h"
